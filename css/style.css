@@ -1,0 +1,322 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+/*header section code start*/
+.header{
+  width: 100%;
+  background: url("../images/hbg.png") center top no-repeat;
+  background-size: cover;
+  padding: 0 0 190px;
+}
+/*menu bar code start*/
+.header .main-menu{
+  width: 100%;
+  padding: 20px 0;
+}
+.header .main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    background: #ffd800;
+    border: 1px solid #ffd800;
+    border-radius: 3px;
+}
+.header .main-menu .navbar-light .navbar-nav .nav-link {
+  	margin: 0 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.header .main-menu .navbar-light .navbar-nav .nav-link:hover, .header .main-menu .navbar-light .navbar-nav .nav-link:focus{
+  	color: #000;
+  	display: block;
+    background: #ffd800;
+    border: 1px solid #ffd800;
+    border-radius: 3px;
+}
+/*menu bar code end*/
+
+/*banner code start*/
+.header h2{
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 100px 0 0;
+}
+.header h2 span{
+  font-weight: 500;
+}
+.header .form-control {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #b9bac2;
+    background: transparent;
+    border: 1px solid #b9bac2;
+    box-shadow: none !important;
+}
+.header .btn-primary{
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #ffd800;
+  border: 2px solid #ffd800;
+  color: #000;
+  border-radius: 2px;
+  transition: 1s;
+}
+.header .btn-primary:hover, .header .btn-primary:focus{
+  background: transparent;
+  border: 1px solid #ffd800;
+  color: #ffd800;
+}
+/*banner code end*/
+/*header section code end*/
+
+/*services section code start*/
+.service{
+  width: 100%;
+  background-color: #191b29;
+  padding: 40px 0;
+}
+.service .inner-service{
+  width: 100%;
+}
+.service .card{
+  border: none;
+  margin: 40px 0;
+  background: transparent;
+}
+.service .card img{
+  margin-top: 10px;
+}
+.service .card .card-body{
+  padding: 0 10px;
+  margin-top: 18px;
+  margin-left: 0;
+}
+.service .card .card-body .mar{
+  margin-left: 20px;
+}
+.service .card .card-body .card-title{
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+}
+.service .card .card-text{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.service .phone{
+	width: 100%;
+	margin-top: -130px;
+}
+/*services section code end*/
+
+/*team section code start*/
+.team{
+  width: 100%;
+  background-color: #ffd800;
+  text-align: center;
+  padding: 80px 0;
+}
+.team .titile{
+	width: 100%;
+}
+.team .titile h2{
+	color: #000;
+	font-size: 46px;
+    line-height: 56px;
+    font-weight: 200;
+}
+.team .titile h3{
+	color: #000;
+	font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.team img{
+	width: 100px;
+	margin-bottom: 20px;
+}
+.team h4{
+	color: #000;
+	font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.team p{
+	color: #000;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+/*team section code end*/
+
+/*awsome app section code start*/
+.awsome-app{
+	width: 100%;
+	background: url("../images/apbg.png") center top no-repeat;
+	background-size: contain;
+	padding: 0 0 80px;
+}
+.awsome-app .upper-part{
+	width: 100%;
+	padding: 30px 0;
+}
+.awsome-app .upper-part h4{
+	color: #000;
+	font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.awsome-app .upper-part p{
+	color: #000;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.awsome-app .lower-part{
+	width: 100%;
+	padding: 30px 0;
+}
+.awsome-app .lower-part h4{
+	color: #000;
+	font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.awsome-app .lower-part p{
+	color: #000;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.awsome-app .lower-part .btn-primary{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 10px 20px;
+  transition: 1s;
+}
+.awsome-app .lower-part .btn-primary:hover, .awsome-app .lower-part .btn-primary:focus{
+  	background: transparent;
+  	border: 1px solid #000;
+  	color: #000;
+}
+.awsome-app img{
+	width: 118%;
+	margin-left: 1px;
+}
+/*awsome app section code end*/
+
+/*app work section code start*/
+.app-work{
+	width: 100%;
+  	background: url("../images/awbg.png") center top no-repeat;
+  	background-size: cover;
+  	text-align: center;
+  	padding: 80px 0;
+}
+.app-work .titile{
+	width: 100%;
+	padding: 0 0 40px;
+}
+.app-work .titile h2{
+	color: #fff;
+	font-size: 46px;
+    line-height: 56px;
+    font-weight: 200;
+}
+.app-work .titile h3{
+	color: #fff;
+	font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.app-work img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.app-work h4{
+	color: #fff;
+	font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.app-work p{
+	color: #fff;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+/*app work section code end*/
+
+/*footer section code start*/
+.footer{
+	width: 100%;
+	background: #191b29;
+	text-align: center;
+	padding: 80px 0;
+}
+.footer .widget{
+	width: 100%;
+	margin-bottom: 80px;
+}
+.footer .widget p{
+	color: #fff;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.footer p{
+	color: #fff;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.footer p span{
+	font-weight: 600;
+	margin: 0 5px;
+}
+/*footer section code end*/
